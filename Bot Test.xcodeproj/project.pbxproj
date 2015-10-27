@@ -14,6 +14,8 @@
 		24DC10E91BDF7A1E000FC1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC10E71BDF7A1E000FC1E6 /* LaunchScreen.storyboard */; };
 		24DC11081BDF7AA8000FC1E6 /* DCTAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DC10FB1BDF7A9D000FC1E6 /* DCTAuth.framework */; };
 		24DC11091BDF7AA8000FC1E6 /* DCTAuth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24DC10FB1BDF7A9D000FC1E6 /* DCTAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24E7ACB41BDF7EB600117B56 /* DCTObjectStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7ACAB1BDF7E8800117B56 /* DCTObjectStore.framework */; };
+		24E7ACB51BDF7EB600117B56 /* DCTObjectStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7ACAB1BDF7E8800117B56 /* DCTObjectStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,48 @@
 			remoteGlobalIDString = 2454F2BF1959601600E8643C;
 			remoteInfo = "DCTAuth iOS";
 		};
+		24E7ACAA1BDF7E8800117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 242BEEFC19A8F53B0063F2F2;
+			remoteInfo = "DCTObjectStore iOS";
+		};
+		24E7ACAC1BDF7E8800117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 242BBB331A93911400CA83B7;
+			remoteInfo = "DCTObjectStore OS X";
+		};
+		24E7ACAE1BDF7E8800117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2473F1FA1BC857A60075EA00;
+			remoteInfo = "DCTObjectStore tvOS";
+		};
+		24E7ACB01BDF7E8800117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2464AB461A2931D800F72B41;
+			remoteInfo = "DCTObjectStore Tests";
+		};
+		24E7ACB21BDF7E8800117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24D52A211A28E98C00FDA615;
+			remoteInfo = "DCTObjectStore Demo";
+		};
+		24E7ACB61BDF7EB600117B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 242BEEFB19A8F53B0063F2F2;
+			remoteInfo = "DCTObjectStore iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +127,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				24DC11091BDF7AA8000FC1E6 /* DCTAuth.framework in Embed Frameworks */,
+				24E7ACB51BDF7EB600117B56 /* DCTObjectStore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +143,7 @@
 		24DC10E81BDF7A1E000FC1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DC10EA1BDF7A1E000FC1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DC10F01BDF7A9D000FC1E6 /* DCTAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTAuth.xcodeproj; path = DCTAuth/DCTAuth.xcodeproj; sourceTree = "<group>"; };
+		24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTObjectStore.xcodeproj; path = DCTObjectStore/DCTObjectStore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DC11081BDF7AA8000FC1E6 /* DCTAuth.framework in Frameworks */,
+				24E7ACB41BDF7EB600117B56 /* DCTObjectStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				24DC10F01BDF7A9D000FC1E6 /* DCTAuth.xcodeproj */,
+				24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */,
 				24DC10DD1BDF7A1E000FC1E6 /* Bot Test */,
 				24DC10DC1BDF7A1E000FC1E6 /* Products */,
 			);
@@ -156,6 +204,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		24E7ACA31BDF7E8800117B56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E7ACAB1BDF7E8800117B56 /* DCTObjectStore.framework */,
+				24E7ACAD1BDF7E8800117B56 /* DCTObjectStore.framework */,
+				24E7ACAF1BDF7E8800117B56 /* DCTObjectStore.framework */,
+				24E7ACB11BDF7E8800117B56 /* DCTObjectStore Tests.xctest */,
+				24E7ACB31BDF7E8800117B56 /* DCTObjectStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,6 +232,7 @@
 			);
 			dependencies = (
 				24DC110B1BDF7AA8000FC1E6 /* PBXTargetDependency */,
+				24E7ACB71BDF7EB600117B56 /* PBXTargetDependency */,
 			);
 			name = "Bot Test";
 			productName = "Bot Test";
@@ -208,6 +269,10 @@
 				{
 					ProductGroup = 24DC10F11BDF7A9D000FC1E6 /* Products */;
 					ProjectRef = 24DC10F01BDF7A9D000FC1E6 /* DCTAuth.xcodeproj */;
+				},
+				{
+					ProductGroup = 24E7ACA31BDF7E8800117B56 /* Products */;
+					ProjectRef = 24E7ACA21BDF7E8800117B56 /* DCTObjectStore.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -267,6 +332,41 @@
 			remoteRef = 24DC11061BDF7A9D000FC1E6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		24E7ACAB1BDF7E8800117B56 /* DCTObjectStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DCTObjectStore.framework;
+			remoteRef = 24E7ACAA1BDF7E8800117B56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24E7ACAD1BDF7E8800117B56 /* DCTObjectStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DCTObjectStore.framework;
+			remoteRef = 24E7ACAC1BDF7E8800117B56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24E7ACAF1BDF7E8800117B56 /* DCTObjectStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DCTObjectStore.framework;
+			remoteRef = 24E7ACAE1BDF7E8800117B56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24E7ACB11BDF7E8800117B56 /* DCTObjectStore Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DCTObjectStore Tests.xctest";
+			remoteRef = 24E7ACB01BDF7E8800117B56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24E7ACB31BDF7E8800117B56 /* DCTObjectStore.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTObjectStore.app;
+			remoteRef = 24E7ACB21BDF7E8800117B56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -299,6 +399,11 @@
 			isa = PBXTargetDependency;
 			name = "DCTAuth iOS";
 			targetProxy = 24DC110A1BDF7AA8000FC1E6 /* PBXContainerItemProxy */;
+		};
+		24E7ACB71BDF7EB600117B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DCTObjectStore iOS";
+			targetProxy = 24E7ACB61BDF7EB600117B56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,6 +551,7 @@
 				24DC10EF1BDF7A1E000FC1E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
