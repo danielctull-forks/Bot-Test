@@ -1,3 +1,6 @@
 [submodule "DCTAuth"]
 	path = DCTAuth
 	url = git://github.com/danielctull/DCTAuth.git
+[submodule "DCTObjectStore"]
+	path = DCTObjectStore
+	url = git://github.com/danielctull/DCTObjectStore.git
